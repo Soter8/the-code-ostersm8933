@@ -1,28 +1,66 @@
+/* header section */
 .current_page{
     font-size: 70px;
-    padding: 1rem 10rem 1rem 1rem;
     background-color: #c4cacb;
+    border: black solid;
+    padding: 20px 60px 20px 20px;
 }
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #00A2E8;
 }
+
+.logo img{
+  height: 20rem;
+}
+
 
 .navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #c4cacb;
+}
+/* End header section */
+
+/* Footer section */
+.social img{
+  height: 2rem;
+  margin: .5rem;
 }
 
+.bigSocial img{
+  height: 10rem;
+  margin: .5rem 3rem ;
+}
+
+.social{
+  display: flex;
+  justify-content: right;
+}
+
+.bigSocial{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  padding: .5rem 1rem;
+  background-color: #00A2E8;
+}
+/* End Footer section */
+
+/* Dropdown section */
 /* Dropdown Button */
 .dropbtn {
     background-color: #c4cacb;
     color: black;
-    padding: 50px;
+    padding: 20px;
     font-size: 70px;
-    border: none;
+    border: black solid;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -44,16 +82,62 @@
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 20px 26px;
     text-decoration: none;
     display: block;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #00A2E8;}
+  .dropdown-content a:hover {
+    background-color: #00A2E8;
+    border: black solid;
+  }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #00A2E8;}
+  /* END Dropdown section */
+
+  .hours{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main{
+    text-align: center;
+  }
+
+  img{
+height: 30rem;
+  }
+
+  @media (min-width:1000px){
+    header {
+      display: flex;
+      justify-content: space-around;
+      background-color: #00A2E8;
+    }
+    .current_page{
+      font-size: 70px;
+      background-color: #c4cacb;
+      border: black solid;
+      padding: 20px 200px 20px 20px;
+   
+  }
+  
+  .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .navbar{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #00A2E8;
+  }
+  /* End header section */
+  }
