@@ -149,7 +149,7 @@ height: 30rem;
   }
   /* form info done */
 
-  button {
+  main a{
     background-color: #00A2E8; 
     border: none;
     color: white;
@@ -180,6 +180,16 @@ height: 30rem;
   img{
     max-height: 300px;
   }
+
+  ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
 
   @media (min-width:1000px){
     header {
